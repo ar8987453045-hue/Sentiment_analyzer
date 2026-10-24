@@ -22,7 +22,7 @@ tab1, tab2 = st.tabs(["Single text", "Upload CSV"])
 
 # ---- Tab 1: one piece of text ----
 with tab1:
-    text = st.text_area("Type a sentence or review:", "I really enjoyed this movie!")
+    text = st.text_area("Type a sentence or review:")
     if st.button("Analyze"):
         if text.strip() == "":
             st.warning("Please type something first.")
