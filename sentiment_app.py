@@ -4,6 +4,7 @@ from transformers import pipeline
 
 st.set_page_config(page_title="Sentiment Analyzer", page_icon="😊")
 st.title("😊 Sentiment Analysis System")
+st.write("By ~ Ashish Ranjan..........................")
 st.write("Checks whether text is positive or negative, using a Hugging Face model.")
 
 
